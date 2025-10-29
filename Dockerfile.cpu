@@ -28,7 +28,8 @@ RUN if [ -n "$EXTRAS" ]; then \
       pip install --no-cache-dir whisperlivekit[$EXTRAS]; \
     else \
       echo "Installing base package only"; \
-      pip install --no-cache-dir whisperlivekit; \
+      # pip install --no-cache-dir whisperlivekit; \
+	  pip install --no-cache-dir .; \
     fi
 
 # Enable in-container caching for Hugging Face models
