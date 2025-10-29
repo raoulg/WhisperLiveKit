@@ -139,3 +139,7 @@ launch.json
 .DS_Store
 test/*
 nllb-200-distilled-600M-ctranslate2/*
+
+data/
+
+
